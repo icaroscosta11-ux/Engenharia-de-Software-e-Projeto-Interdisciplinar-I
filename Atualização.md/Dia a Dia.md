@@ -17,6 +17,10 @@ Nessa data foi realizado:
 
 ### Atualização dia: 09/01/2026
 
+Nessa data foi realizado:
+- Atualização da documentação: "Fonte de Requisitos", feita por Laís.
+- Continuação da parte gráfica do sistema, feita pelo Matheus.
+-Tentativa frustrada da iniciação do protótipo, feita por Carla e Ícaro, na qual não houve como continuar devido à falta de sistema operacional (do computador) necessário para se usar o VS Code. Tendo como alternativa o uso do Terminal, a dupla responsável pelo código-fonte (Carla e Ícaro) recusou-se a utilizá-lo devido à sua complexidade e falta de recursos. Então, foi tomada a decisão de usar notebooks pessoais para a realização do início do protótipo. 
 ---
 
 ### Atualização dia: 12/01/2026
