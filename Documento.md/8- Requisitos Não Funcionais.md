@@ -1,5 +1,5 @@
 # Introduçao 
-
+Os Requisitos nao Funcionais a seguir estabelecem os criterios de qualidade e as restricoes que o sistema de gestao de livros deve atender.Eles sao cruciais para garantir a performace,segurança,usabilidade e conformidade legal da plataforma,complementando as funcionalidades essenciais coms aspectos tencinos e operacionais.
 
 ##### RNF - 01
 A interface deve ser responsiva e funcionar bem em desktop, tablets e celulares.
