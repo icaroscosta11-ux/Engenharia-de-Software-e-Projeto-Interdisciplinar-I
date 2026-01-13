@@ -42,8 +42,10 @@ utilizados (ex: APIs RESTful, XML, JSON).
 • Compatibilidade com Navegadores: O sistema deve ser totalmente funcional e
 apresentar uma experiência consistente nos principais navegadores web (Chrome,
 Firefox, Edge, Safari) e em diferentes dispositivos (desktop, tablet, mobile).
-. Restrições Operacionais
+
+* Restrições Operacionais
 Estas restrições estão relacionadas ao ambiente em que o sistema será utilizado e mantido:
+
 • Disponibilidade: O sistema deve estar disponível horas por dia,dias por semana,
 com um tempo de inatividade mínimo, conforme estabelecido nos requisitos não
 funcionais. Isso implica em requisitos de arquitetura para alta disponibilidade e planos
