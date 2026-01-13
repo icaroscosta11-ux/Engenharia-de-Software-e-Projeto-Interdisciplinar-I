@@ -1,4 +1,4 @@
-# Introduçao 
+# Introdução 
 Os Requisitos nao Funcionais a seguir estabelecem os critérios de qualidade e as restricçõs que o sistema de gestão de livros deve atender.Eles sao cruciais para garantir a performace,segurança,usabilidade e conformidade legal da plataforma,complementando as funcionalidades essenciais com aspectos técnicos e operacionais.
 
 ##### RNF - 01
