@@ -1,4 +1,4 @@
-# Introduçao
+# Introdução
 Os Requisitos Funcionais a seguir são a base para o desenvolvimento de um sistema de gestão de livro.Eles definem as funcionalidades essenciais que a plataforma deve oferecer,garantindo que o produto  final atenda as necessidades dos usuários e aos objetivos do projeto de forma clara e estruturada.
 
 ##### RF - 01
