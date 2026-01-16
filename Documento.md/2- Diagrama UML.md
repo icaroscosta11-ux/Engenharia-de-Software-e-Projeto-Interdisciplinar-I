@@ -7,6 +7,6 @@ Foram definidos neste diagrama dois atores principais: "Bibliotecário" e "Usuá
 
 O Bibliotecário é responsável pela adminsitração do sistema como o gerenciamento de usuários e livros, registro de empréstimo e devolução, controle de multas e criação de relatórios.
 
-O usuário tem acesso a funcionalidades voltada ao uso da Biblioteca com realizar cadastro/login, atualizar perfil, pesquisar livros, reservar livros, devolver livros e consultar o histórico de empréstimos de livros.
+O usuário tem acesso a funcionalidades voltada ao uso da Biblioteca como realizar cadastro/login, atualizar perfil, pesquisar livros, reservar livros, devolver livros e consultar o histórico de empréstimos de livros.
 
 Esse diagrama ajuda a entender de forma geral o sistema de biblioteca e serve como base para o desenvolvimento do Software.
