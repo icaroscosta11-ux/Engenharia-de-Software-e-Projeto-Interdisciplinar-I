@@ -1,70 +1,104 @@
-# Introdução
-Os Requisitos Funcionais a seguir são a base para o desenvolvimento de um sistema de gestão de livro.Eles definem as funcionalidades essenciais que a plataforma deve oferecer,garantindo que o produto  final atenda as necessidades dos usuários e aos objetivos do projeto de forma clara e estruturada.
+# Introdução 
+Os requisitos funcionais a seguir descrevem as funcionalidades efetivamente implementadas no sistema Biblioteca Avalon. Eles definem o comportamento do sistema do ponto de vista do usuário final, garantindo coerência entre a documentação e a aplicação desenvolvida.
 
-##### RF - 01
-O sistema deve permitir cadastro via e-mail e senha.
-* Prioridade: Alto
 
-##### RF - 02 
-Deve ser enviado e-mail de confirmação de cadastro e recuperação de senha por e-mail.
-* Prioridade: Alto 
+##### RF-01 – Cadastro de Usuário: 
+O sistema deve permitir o cadastro de usuários por meio de nome completo, e-mail (gmail), senha e endereço.
 
-##### RF - 03
-O catálogo precisa ter filtros por gênero, autor, estado do livro, preço e disponibilidade.
-* Prioridade: Medio 
+##### Prioridade: Alta
 
-##### RF - 04 
-Cada livro deve exibir seu status em tempo real: disponível, reservado ou esgotado.
-* Prioridade: Alto 
+##### RF-02 – Autenticação de Usuário: 
+O sistema deve permitir que usuários cadastrados realizem login utilizando e-mail e senha.
 
-##### RF - 05 
-Usuários podem adicionar livros ao carrinho ou lista de desejos.
-* Prioridade: Medio 
+##### Prioridade: Alta
 
-##### RF - 06 
-O sistema deve permitir compra, aluguel e doação diretamente do catálogo.
-* Prioridade: Alto
+##### RF-03 – Pesquisa de Livros:
+O sistema deve permitir a pesquisa de livros por meio de um campo de busca textual, utilizando uma API externa de livros.
 
-##### Rf - 07
-Para locações, o prazo e multas devem ser calculados automaticamente.
-* Prioridade: Medio 
+##### Prioridade: Alta
 
-##### RF - 08
-Os doadores podem informar o estado do livro (novo, usado, muito usado).
-* Prioridade: Baixo 
+##### RF-04 – Exibição de Catálogo:
+O sistema deve exibir um catálogo de livros contendo, no mínimo:
 
-##### RF - 09
-Usuários devem acompanhar o status de seus pedidos: em processamento, enviado, entregue ou aguardando devolução.
-* Prioridade: Medio 
+* Título
+* Autor(es)
+* Capa do livro (quando disponível)
+* Preço base gerado dinamicamente
 
-##### RF - 10
-O sistema precisa integrar pagamentos por cartão, Pix e boleto.
-* Prioridade: Alto
+##### Prioridade: Alta
 
-##### RF - 11
-Em caso de atraso em devolução, a multa deve ser cobrada automaticamente.
-* Prioridade: Alto
+RF-05 – Carrinho de Compras: 
+O sistema deve permitir que usuários adicionem livros ao carrinho de compras diretamente a partir do catálogo.
 
-##### RF - 12
-A plataforma deve gerar etiquetas de envio e integrar com transportadoras e Correios.
-* Prioridade: Alto
+##### Prioridade: Alta
 
-##### RF - 13
-Usuários podem rastrear pedidos com código de rastreio.
-* Prioridade:Alto
+##### RF-06 – Modalidades de Aquisição:
+O sistema deve permitir que o usuário escolha entre duas modalidades de aquisição:
 
-##### RF - 14 
-Deve haver suporte ao cliente por chat, e-mail e telefone.
-* Prioridade: Medio 
+* Compra
+* Aluguel
 
-##### Rf - 15
-Administradores precisam gerenciar estoque, cadastrar livros e aprovar doações.
-* Prioridade: Alto
+##### Prioridade: Alta
 
-##### RF - 16
-O sistema deve emitir relatórios de vendas, locações, atrasos e status de estoque.
-* Prioridade: Medio 
+##### RF-07 – Definição de Prazo de Aluguel:
+Para livros alugados, o sistema deve permitir que o usuário defina a quantidade de dias de locação, entre 1 e 7 dias.
 
-##### RF - 17
-A equipe responsável deve ser notificada quando o estoque de determinado título estiver baixo.
-* Prioridade: Alto
+##### Prioridade: Média
+
+##### RF-08 – Cálculo Automático de Valores:
+O sistema deve calcular automaticamente o valor total da compra ou aluguel, considerando:
+
+* Preço base do livro
+* Modalidade escolhida
+* Quantidade de dias de aluguel (quando aplicável)
+
+##### Prioridade: Alta
+
+##### RF-09 – Gerenciamento do Carrinho:
+O sistema deve permitir que o usuário:
+
+* Visualize os itens do carrinho
+* Selecione ou desmarque itens para pagamento
+* Remova itens do carrinho
+
+##### Prioridade: Média
+
+##### RF-10 – Pagamento Simulado:
+O sistema deve disponibilizar as seguintes opções de pagamento de forma simulada:
+
+* Pix
+* Boleto
+* Cartão de crédito
+
+##### Prioridade: Alta
+
+##### RF-11 – Finalização da Compra ou Aluguel:
+O sistema deve permitir que o usuário finalize a compra ou aluguel dos livros selecionados, registrando a transação no banco de dados.
+##### Prioridade: Alta
+
+##### RF-12 – Registro de Histórico de Vendas:
+O sistema deve armazenar no banco de dados o histórico de compras e aluguéis realizados pelo usuário.
+
+##### Prioridade: Média
+
+##### RF-13 – Emissão de Nota Fiscal:
+O sistema deve gerar e exibir uma nota fiscal textual contendo:
+
+* Dados do cliente
+* Data e hora da transação
+* Itens adquiridos
+* Modalidade (compra ou aluguel)
+* Valor total
+* Método de pagamento
+
+##### Prioridade: Alta
+
+##### RF-14 – Interface Gráfica Interativa:
+O sistema deve disponibilizar uma interface gráfica interativa desenvolvida em Tkinter, permitindo navegação entre telas de forma intuitiva.
+
+##### Prioridade: Alta
+
+##### RF-15 – Manutenção de Sessão do Usuário:
+O sistema deve manter os dados do usuário autenticado durante a navegação, até o encerramento da aplicação.
+
+##### Prioridade: Média
